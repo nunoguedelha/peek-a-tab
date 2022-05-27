@@ -7,7 +7,7 @@ const THIS_VERSION = "1.5.6";
 document.addEventListener("DOMContentLoaded", function() {
   var activeWindowId = window.location.search.substr(1);
   var peekATabWindowId = null;
-  var closeOnFocusChange = true;
+  var closeOnFocusChange = false;
 
   var activeTabElement = null;
 
